@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Birthday Mission 04</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at 50% 5%,#293b51,#101b2b 68%);color:#f7ead7;font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;display:grid;place-items:center;padding:24px 16px}.card{width:min(100%,440px);border:1px solid #a58a60;border-radius:20px;padding:42px 25px;text-align:center;background:linear-gradient(145deg,#1d3045,#142337);box-shadow:0 20px 70px #0007}.eyebrow{font-size:11px;letter-spacing:.27em;color:#d8bc8b}.ornament{font-size:28px;color:#d8bc8b;margin:18px 0}h1{font-family:Georgia,serif;font-weight:normal;font-size:35px;margin:12px 0 20px;color:#f5dfb9}.rule{height:1px;background:linear-gradient(90deg,transparent,#a58a60,transparent);margin:24px 0}.message{font-size:15px;line-height:2.25;white-space:pre-line}.button{display:block;width:100%;border:0;border-radius:9px;padding:16px;margin-top:28px;background:#ddc393;color:#142337;font-weight:bold;font-size:14px;letter-spacing:.06em;text-decoration:none;cursor:pointer}.button.secondary{background:transparent;color:#e4cda5;border:1px solid #9e8866}.small{font-size:12px;color:#d4bd98;line-height:1.9}.hidden{display:none}.footer{margin-top:30px;font-size:10px;letter-spacing:.22em;color:#c4a979}.fade{animation:fade .65s ease both}@keyframes fade{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+</style></head><body><main class="card"><div class="eyebrow">A LITTLE LETTER FOR YOU</div><div class="ornament">✧</div><section id="first" class="fade"><h1>How was pottery?</h1><div class="rule"></div><p class="message">陶芸は楽しかった？♡
+
+ふたりで作った作品が完成するの、
+今から楽しみだね。
+
+出来上がったものを実際に使うたびに、
+今日のことを思い出せたらうれしいな。
+
+さて、いよいよ今日の最後のプラン！
+夜ご飯を食べに行こう ♡</p><button class="button" id="next">NEXT — 最後の目的地へ ✧</button></section><section id="second" class="hidden"><div class="eyebrow">FINAL MISSION 04</div><h1>Dinner Time</h1><div class="rule"></div><p class="message">最後の目的地は…
+
+RIGOLETTO TAPAS LOUNGE
+（リゴレット タパス ラウンジ）！
+
+18:00に予約してあるよ ♡
+
+今日の締めくくりに、
+一緒においしい夜ご飯を楽しもう！</p><a class="button" href="https://maps.app.goo.gl/E6X9TUZvTNzL4Wz59" target="_blank" rel="noopener noreferrer">📍 お店までの地図を開く</a><button class="button secondary" id="back">手紙に戻る</button><p class="small">最後まで一緒に楽しんでくれてありがとう ♡</p></section><div class="footer">MADE WITH LOVE ♡</div></main><script>const a=document.getElementById('first'),b=document.getElementById('second');document.getElementById('next').onclick=()=>{a.classList.add('hidden');b.classList.remove('hidden');b.classList.add('fade')};document.getElementById('back').onclick=()=>{b.classList.add('hidden');a.classList.remove('hidden');a.classList.add('fade')};</script></body></html>
